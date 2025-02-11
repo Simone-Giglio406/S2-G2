@@ -54,8 +54,13 @@ if (
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let a = "totalShoppingCart";
+let b = "costoSpedizione";
 
+if ("a" + "b" >= 50 === 0) {
+} else {
+  console.log("verifyy");
+}
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
@@ -83,19 +88,17 @@ if (
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+//ESERCIZIO 10
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let val = 7;
+
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -107,28 +110,37 @@ const me = {
   skills: ["javascript", "html", "css"],
 };
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+me.city = "Toronto";
+
+console.log("me city");
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+delete me.lastName;
+
+console.log("me removed lastname");
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop("skills");
+
+console.log("me removed skills");
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log("numbers");
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
+numbers.splice(9, 0, 100);
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("verify numbers");
